@@ -1,0 +1,17 @@
+{
+	"name": "MyPC",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\SQL Data\\Lab3",
+			"userId": "EUROPE\\v-tcrnilo@microsoft.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmNGUwNWQ4OC1kOTUxLTQ0MzItYmEzMy0wNzViNzRhMjJhNmQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfHostedintegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
